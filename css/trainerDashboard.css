@@ -1,0 +1,97 @@
+.header{
+	width:100%;
+	height:50px;
+	background-color: black;
+	position: fixed;
+	top:0px;
+	left:0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 20px;
+	color:white;
+	z-index: 2000;
+	font-family: 'Courgette', cursive;
+}
+.btn{
+	height:50px;
+	border-radius: 0px !important;
+}
+#heading{
+	width:75%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navBtn{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.profileJumbo{
+	margin:40px;
+	background-color: aliceblue;
+	color:black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	 font-family: 'Courgette', cursive;
+	 font-weight: bold;
+}
+.profileRow{
+	width:100%;
+	height: 100%;
+}
+.fields{
+	color:darkblue;
+	margin-right: 15px;
+}
+.col1{
+	padding: 40px;
+}
+.col2{
+	padding:40px;
+	font-family: 'Courgette', cursive;
+	background-color: rgba(0,0,0,0.5);
+	color:white;
+}
+.queueCard{
+	width:100%;
+	height:200px;
+	background-color: grey;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  outline: 1px solid slategrey;
+}
+
+.mainScroll::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.mainScroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.mainScroll::-webkit-scrollbar-thumb {
+  background-color: grey;
+  outline: 1px solid slategrey;
+}
+.footer{
+
+   width:100%;
+	height:60px;
+	background-color: rgba(0,0,0,0.7);
+	color:white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
